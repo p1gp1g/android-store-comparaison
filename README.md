@@ -1,5 +1,7 @@
 # android-store-comparaison
 
+This table does not attempt to document everything, because it's probably not feasible. It just look at some basic things.
+
 ✅ : ok
 ❌ : nok
 ⚠️ : warning
