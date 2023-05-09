@@ -16,7 +16,7 @@
 | Low target API for apps | ❌ ([Waiting MR](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1214), then need to inform users when an app is installed with a low targetSdk) | ✅ | ✅ | ❌ (No check) | Security consideration |
 | SSL pinning (main repo) | ❌ | ✅ | ✅ | N/A (No client) | Security consideration - MITM for first install |
 | Do unattended update | ❌ ([WIP for basic](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1216)) | ✅ | ✅ | ❌ | To keep up to date apps. Users must accept or be informed.
-| Up to date signature scheme | ✅/⚠️ Up to v3 ([held on v1 in 2020](https://forum.f-droid.org/t/why-f-droid-is-still-using-apk-signature-scheme-v1/10602)) | ✅ | ✅ | ❌ | Security
+| Up to date signature scheme | ✅ (Up to v3) ([held on v1 in 2020](https://forum.f-droid.org/t/why-f-droid-is-still-using-apk-signature-scheme-v1/10602)) | ✅ (Up to v3) | ✅ | ❌ | Security
 | Misleading permission approach | ❌ (Too visible for common users, [Waiting MR](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1211)) | ✅ (Visible if you really look for them) | ✅ | ✅ | Misleading information |
 | Disallows telemetry | ✅ (opt-out, foss) | ❌ | ❌ | ❌ | Privacy consideration |
 
