@@ -19,7 +19,7 @@
 | Up to date signature scheme | ✅/⚠️ Up to v3 ([held on v1 in 2020](https://forum.f-droid.org/t/why-f-droid-is-still-using-apk-signature-scheme-v1/10602)) | ✅ | ??? | ❌ | Security
 | (???) Enforce suffix to the build | ❌ (for non-RB) | ❌ | ??? | N/A | [Google recommends, if the dev do not want cross-store update (if the flavors are different) to have different package Id OR a different signature.](https://developer.android.com/google/play/app-updates#multiple-stores), not relevant ? |
 | Misleading permission approach | ❌ (Too visible for common users, [Waiting MR](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1211)) | ✅ (Visible if you really look for them) | ✅ | ✅ | Misleading information |
-| Allows telemetry | ✅ (opt-out, foss) | ❌ | ??? | ❌ | Privacy consideration |
+| Disallows telemetry | ✅ (opt-out, foss) | ❌ | ??? | ❌ | Privacy consideration |
 
 
 
@@ -30,3 +30,4 @@
 | FOSS | ✅ | ❌ | ❌ | ❌ | Philosophical consideration |
 | Self-hostable backend | ✅ | ❌ | ❌ | ✅ (any git/website) | Reduces power of the main team/ Allows alternative project |
 | Feedback from the team (for instance when rejected) | ✅ | ❌ | ✅ (I guess) | ✅ (dev publishes) | Relevant for many dev, can delay a lot app update |
+| Update efficiency | ✅ (since JSON Merge Patch) | ✅ | ??? | ❌ | Checking if update is available for all the installed app should be efficient. For instance, an RSS app for github releases may easily timeout with some apps. |
