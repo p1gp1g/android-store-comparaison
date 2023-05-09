@@ -11,7 +11,7 @@
 | Trust repository signing key | ❌ without RB / ✅ with RB | ❌ (since Play App signing) | ✅/⚠️ (Often stocked in github secret) | ⚠️ (Often stocked in github secret) | Gives trust to the repository |
 | Reproducible build (RB) (check automatically by 2 actors) | ✅ | ❌ | ❌ | ❌ | Reduces trust given to the build system and repository |
 | Up to date build system | ✅ ([issues in 2022](https://gitlab.com/groups/fdroid/-/milestones/5#tab-issues)) | ✅ | ✅ | ✅ | Security consideration |
-| Up to date app releases | ✅/⚠️ (4-5 days delayed, sometimes more when there is an issue) | ✅ (4/5 days delayed) | ??? | ✅ Direct | Security consideration |
+| Up to date app releases | ✅/⚠️ (4-5 days delayed, sometimes more when there is an issue) | ✅ (4/5 days delayed) | ✅ (Direct on dev upload, reviewed if there is a new permission) | ✅ Direct | Security consideration |
 | Low target API for client | ❌ ([WIP for basic](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1207)) | ✅ | ✅ | N/A | Security consideration |
 | Low target API for apps | ❌ ([Waiting MR](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1214)) | ✅ | ✅ | ❌ (No check) | Security consideration |
 | SSL pinning (main repo) | ❌ | ✅ | ??? | N/A (No client) | Security consideration - MITM for first install |
