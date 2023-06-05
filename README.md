@@ -29,7 +29,7 @@ This table does not attempt to document everything, because it's probably not fe
 
 | | F-Droid | Play Store | Accrescent | (Github/other) Release | Note |
 |-|---|---|---|---|---|
-| FOSS | ✅ | ❌ | ❌ | ❌ | Philosophical consideration |
+| FOSS | ✅ | ❌ | ❌ | ❌ | More confidence + Philosophical consideration |
 | 3rd party repo with ability to self-host the backend | ✅ | ❌ | ❌ [intentionnaly](https://accrescent.app/faq#other-repos) | ✅ (any git/website) | Reduces power of the main team/ Allows alternative project |
 | Feedback from the team (for instance when rejected) | ✅ | ❌ | ✅ | ✅ (dev publishes) | Relevant for many dev, can delay a lot app update |
 | Update efficiency | ✅ (since JSON Merge Patch) | ✅ | ✅ | ❌ | Checking if update is available for all the installed app should be efficient. For instance, an RSS app for github releases may easily timeout with some apps. |
