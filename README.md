@@ -19,7 +19,6 @@ This table does not attempt to document everything, because it's probably not fe
 | SSL pinning (main repo) | ❌ | ✅ | ✅ | N/A (No client) | Security consideration - MITM for first install |
 | Do unattended update | ❌ for main / [✅ for basic](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1216)) | ✅ | ✅ | ❌ | To keep up to date apps. Users must accept or be informed.
 | Up to date signature scheme | ✅ (Up to v3) ([held on v1 in 2020](https://forum.f-droid.org/t/why-f-droid-is-still-using-apk-signature-scheme-v1/10602)) | ✅ | ✅ (Up to v3) | ❌ | Security
-| Misleading permission approach (must be reworded) | ❌ (Too visible for common users, [Waiting MR](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1211)) | ✅ (Visible if you really look for them) | ✅ | ✅ | Misleading information |
 | Disallows telemetry | ✅ (opt-in, foss) | ❌ | ❌ | ❌ | Privacy consideration |
 
 \* Enforcing a suffix to the build is not listed here. [Google recommends, if the dev do not want cross-store update (if the flavors are different) to have different package Id OR a different signature.](https://developer.android.com/google/play/app-updates#multiple-stores).
@@ -33,3 +32,4 @@ This table does not attempt to document everything, because it's probably not fe
 | 3rd party repo with ability to self-host the backend | ✅ | ❌ | ❌ [intentionnaly](https://accrescent.app/faq#other-repos) | ✅ (any git/website) | Reduces power of the main team/ Allows alternative project |
 | Feedback from the team (for instance when rejected) | ✅ | ❌ | ✅ | ✅ (dev publishes) | Relevant for many dev, can delay a lot app update |
 | Update efficiency | ✅ (since JSON Merge Patch) | ✅ | ✅ | ❌ | Checking if update is available for all the installed app should be efficient. For instance, an RSS app for github releases may easily timeout with some apps. |
+| Misleading permission approach (must be reworded) | ❌ (Too visible for common users, [Waiting MR](https://gitlab.com/fdroid/fdroidclient/-/merge_requests/1211)) | ✅ (Visible if you really look for them) | ✅ | ✅ | Misleading information |
